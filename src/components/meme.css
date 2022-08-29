@@ -1,0 +1,50 @@
+.main {
+    padding: 40px;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form-inputs {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 2px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.form-button {
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.meme{
+    position: relative;
+    text-align: center;
+}
+
+.meme-image{
+    margin-top: 10px;
+    max-width: 50%;
+}
+
+.meme-text {
+    position: absolute;
+    left: 50%;
+    color: crimson;
+}
+
+.top {
+    top: 10px;
+}
+
+.bottom {
+    bottom: 10px;
+    overflow-wrap: normal;
+}
